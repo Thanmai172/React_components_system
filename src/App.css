@@ -1,0 +1,122 @@
+.App {  
+  text-align: center;  
+
+} 
+
+.signup-button{
+  margin-left: 1400px;
+}
+
+.bottom-image{
+  width: 700px;
+  height: 0px;
+}
+
+.icon-feature-container {  
+  display: flex; /* Use flexbox layout for the container */  
+  justify-content: space-around; /* Space out items evenly */  
+  flex-direction: row;
+  max-width: 1200px; /* Set a max-width to center the container */   
+  padding: 20px 0; /* Add some vertical padding for spacing */  
+  margin: 0 auto; 
+} 
+
+.testimonials-container {  
+  display: flex; /* Use flexbox layout for the container */  
+  justify-content: space-around; /* Space out items evenly */  
+  flex-direction: row;  
+  max-width: 1200px; /* Set a max-width to center the container */   
+  padding: 20px 0; /* Add some vertical padding for spacing */  
+  margin: 10px auto; /* Corrected syntax */  
+}  
+
+.testimonial-item {  
+  text-align: center; /* Center text within each testimonial item */  
+  max-width: 30%; /* Limit the width of each testimonial item */  
+}  
+.testimonials-title {  
+  text-align: center; /* Center the title text */  
+  font-size: 2em; /* Size of the title font */  
+  color: #333; /* Color of the title text */  
+  margin-bottom: 20px; /* Space below the title */  
+  font-weight: bold; /* Optional: bold for emphasis */  
+}
+
+.testimonial-item img {   
+  width: 80px; /* Set a fixed width */  
+  height: 80px; /* Set a fixed height */  
+  border-radius: 100%; /* Make images round */  
+  margin-bottom: 10px; /* Add spacing below the image */  
+  border-radius: 50px;
+}
+
+
+.features-container {  
+  display: flex;  
+  flex-direction: column; /* Stack items vertically */  
+  margin: 20px 0; /* Margin between features */  
+  max-width: 1200px; /* Max width for the container */  
+  margin-left: auto; /* Centering the container */  
+  margin-right: auto; /* Centering the container */  
+}  
+
+.features-item {  
+  display: flex; /* Flex layout for each feature item */  
+  flex-direction: row; /* Side by side layout for text and image */  
+  margin-bottom: 40px; /* Space between each feature item */  
+  align-items: center; /* Center vertically */  
+  justify-content: space-between; /* Space between text and image */  
+}  
+
+.features-text {  
+  flex: 1; /* Allow text to take half the space */  
+  padding-right: 20px; /* Space between text and image */  
+  text-align: left; /* Align text to the left for readability */  
+}  
+
+.features-container img {  
+  max-width: 800px; /* Set a max-width for images */  
+  height: auto; /* Maintain aspect ratio */  
+  border-radius: 10px; /* Optional: Add a border radius for aesthetics */  
+}  
+.image-container {  
+  position: relative;  
+  height: 100vh; /* Full height of the viewport */   
+  display: flex;  
+  align-items: center; /* Center vertically */  
+  justify-content: center; /* Center horizontally */  
+}  
+
+.image-background {  
+  background-size: cover; /* Make image fill the container */  
+  background-position: center; /* Center the background image */  
+  height: 100%; /* Cover full height */  
+  width: 100%; /* Cover full width */  
+}  
+
+.call-to-action {  
+  /* position: absolute;  */
+  top: 150%;   
+  left: 500%;   
+  transform: translate(-150%, 0%); 
+  color: white; 
+  text-align: center;  
+  /* z-index: 1;  */
+}
+
+/* Responsive styling */  
+@media (max-width: 768px) {  
+  .features-item {  
+    flex-direction: column; /* Stack items vertically on smaller screens */  
+    align-items: center; /* Center align on small screens */  
+  }  
+  
+  .features-text {  
+    padding-right: 0; /* Remove right padding on small screens */  
+    text-align: center; /* Center the text */  
+  }  
+
+  .features-container img {  
+    max-width: 100%; /* Make images full width on small screens */  
+  }  
+}

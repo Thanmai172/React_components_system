@@ -148,12 +148,13 @@ const Features = () => {
 
       {/* Bottom Image with Sign-Up Prompt */}  
 <div style={{ position: 'relative', textAlign: 'center', margin: '20px 0' }}>  
-  <img  
-    src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg" // Use your actual image URL here  
-    alt="Bottom image"  
-    className="bottom-image"  
-    style={{ display: 'block', margin: '0 auto', maxWidth: '100%', height: 'auto' }}  
-  />  
+<img  
+  src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg" 
+  alt="Masthead background with scenic view"  
+  className="bottom-image"  
+  style={{ display: 'block', margin: '0 auto', maxWidth: '100%', height: 'auto' }}  
+/>
+
   
   <div className="signup-container" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color: 'white', textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)', textAlign: 'center' }}>  
     <h3>Ready to get started? Sign up now!</h3>  
